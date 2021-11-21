@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Roboto Slab', serif;
+}
+body{
+    height:100vh;
+    align-items:center;
+    background-color:#2cB3f3;
+}
+h1{
+margin-top:5vh;
+    display:flex;
+    justify-content:center;
+    }
+p{
+    margin-top: 2vh;
+    display:flex;
+    justify-content:center;
+    font-size:large;
+}
+main {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.branco{
+    margin-top:10vh;
+    margin-left: 100px;
+    margin-right: 100px;
+    height:55vh;
+    width:40vw;
+    background-color: antiquewhite;
+    position:relative;
+    border-radius: 70px 70px 0 0;
+}
+.r{
+    display: flex;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 100px;
+    
+}
+.l{display: flex;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 370px;
+   
+}
+.rosto{
+    background-color: lightsalmon;
+    align-items: center;
+    width: 35vw;
+    height: 45vh;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 25px;
+    
+}
+form{
+    position: absolute;
+    top: 220px;
+    left: 170px;    
+    }
+input {
+    width: 100%;
+    padding: 5px 3px;
+    margin: 0.5px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+  .button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 2px;
+    cursor: pointer;
+    box-shadow: 0 0px 0px 0 rgb(0, 0, 0), 0 3px 0px 0 rgb(0, 0, 0);
+  }
+  footer{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+  }
